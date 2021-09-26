@@ -1,7 +1,65 @@
 <!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+    <head>
+
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/phaser@3.15.1/dist/phaser-arcade-physics.min.js"></script>       
+    </head>
+    <body>
+
+        <div class="Header container" style = "min-width: 55em;"> 
+            <div class="name container2" style="margin-left: 10em; min-width: 15em; margin-right: -4em">
+                <div class = "name" style = "max-width: 4.5em; min-width: 4.5em">                         
+                    <img src="images/gmail.png" alt="gmail" style="max-width:70%; max-height:70%; transform:translateY(0.7em)">                         
+                </div>
+                <div class = "name" style = "display:inline-flex; min-width: 15em">                                              
+                    <h2 style="float: left; max-width:100%; max-height:100%; min-width: 4em; ">Joshua Wells</h2>                        
+                </div> 
+            </div>
+            <div class="email container2" style="margin-left: 10em; min-width: 15em; margin-right: -4em">               
+                <div class = "email" style = "margin-left: 0em; max-width: 4.5em; min-width: 4.5em">                      
+                    <img src="images/gmail.png" alt="gmail" style="max-width:70%; max-height:70%; transform:translateY(0.7em) ; ">                         
+                </div>
+                <div class = "email" style = " display:inline-flex; min-width: 15em; margin-right: 6em">                                          
+                    <h2 style="float: left; max-width:100%; max-height:100%;">Wellsy9722@gmail.com </h2>                        
+                </div> 
+            </div>
+            <div class="phone container2" style="margin-left: 10em; min-width: 15em; margin-right: 4em">
+                <div class = "phone" style = "max-width: 4.5em; min-width: 4.5em">                         
+                    <img src="images/gmail.png" alt="gmail" style="max-width:70%; max-height:70%; transform:translateY(0.7em)">                         
+                </div>
+                <div class = "phone" style = "display:inline-flex; min-width: 15em">                                              
+                    <h2 style="float: left; max-width:100%; max-height:100%; min-width: 4em; ">0432 995 486</h2>                        
+                </div> 
+            </div>
+        </div>
+
+
+
+
+        document.body.style.backgroundColor = "red";
+
+        <script>
+
+            function myFunction() {
+                document.body.style.backgroundColor = "red";
+            }
+        </script>
+
+        <script>
+            var w = window.innerWidth;
+            var h = window.innerHeight;
+
+
+            document.getElementById("Header").style.minWidth = w;
+            document.getElementById("name").style.background - color = #ffffff;
+        </script>
+
+
+    </body>
 </html>
