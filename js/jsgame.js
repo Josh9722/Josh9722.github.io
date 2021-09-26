@@ -8,7 +8,7 @@
 
     function stext() {
         var x = document.getElementById("div1");
-        x.style.backgroundColor = red;
+        x.style.backgroundColor = "red";
     }
 
     function htext() {
