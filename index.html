@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -8,13 +9,27 @@ and open the template in the editor.
     <head>
 
         <link rel="stylesheet" href="styles.css">
-        <script src="https://cdn.jsdelivr.net/npm/phaser@3.15.1/dist/phaser-arcade-physics.min.js"> </script>  
-        
-        <script src="js/jsgame.js" ></script>
-        
+
+
+        <meta charset="UTF-8" />
+        <title>CV - Josh Wells</title>
+
+        <script src="//cdn.jsdelivr.net/npm/phaser@3.11.0/dist/phaser.js"></script>
+        <script type="text/javascript" src="js/jsgame.js"></script>
+        <style type="text/css">
+            body {
+                margin: 0;
+            }
+        </style>
     </head>
     <body>
- 
+
+        <script>
+            var jsgame = new session.jsgame();
+        </script>
+
+
+
         <div id="div1" onmouseover="stext()" onmouseout="htext()" class="Header container" style = "min-width: 60em;"> 
             <div class="name container2" style="margin-left: 11em; min-width: 15em; margin-right: -4em">
                 <div class = "name image-cropper" style = "max-width: 4.5em; height: 5em; min-width: 4.5em">                         
@@ -41,7 +56,6 @@ and open the template in the editor.
                 </div> 
             </div>
         </div>
-
 
     </body>
 </html>
