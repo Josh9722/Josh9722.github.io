@@ -550,7 +550,7 @@ section {
             font-family: "Raleway-semibold";
         }
 
-        section:nth-of-type(1) .text {
+        section:nth-of-type(1) {
             font-size: 16pt;
             line-height: 20pt;
             margin: 0 0 20px 0;
