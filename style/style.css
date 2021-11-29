@@ -542,6 +542,11 @@ section:nth-of-type(2) .skills-wrapper {
 section:nth-of-type(2) .skills-wrapper .me {
   height: 200px;
 }
+
+section:nth-of-type(2) .skills-wrapper .skillImages {
+  height: 40px;
+}
+
 section:nth-of-type(2) .skills-wrapper .label {
   margin: 20px 0 15px 0;
 }
@@ -571,6 +576,28 @@ section:nth-of-type(2) .bar {
   margin: 0 0 12px 0;
   position: relative;
 }
+
+section:nth-of-type(2) .webDev {
+    align-items: flex-end;
+    display: inline-flex; 
+    flex-direction:column;
+    justify-content: center;
+    margin: 10px;
+    position: relative;
+}
+
+section:nth-of-type(2) .skillBox { /* The div containing skillFormat and skillImage */
+  margin: 10px;
+  position: relative;
+}
+
+section:nth-of-type(2) .skillFormat {
+    background-color: #04c2c9;
+    width: 100%;
+    color: #fff;
+    font-size: 11pt;
+}
+
 section:nth-of-type(2) .bar:nth-child(1) .fill {
   transition: 1.1s 0.2s width ease-in-out;
 }
@@ -1044,6 +1071,11 @@ footer .footnote .highlight {
   section:nth-of-type(2) .skills-wrapper .me {
     height: 250px;
   }
+  
+  section:nth-of-type(2) .skills-wrapper .skillImages {
+    height: 50px; /* is 25% more than the other*/
+  }
+
   section:nth-of-type(2) .bar {
     font-size: 11pt;
     height: 28px;
@@ -1171,6 +1203,11 @@ footer .footnote .highlight {
   section:nth-of-type(2) .skills-wrapper .me {
     margin: 0;
   }
+
+   section:nth-of-type(2) .skills-wrapper .skillImages {
+    margin: 0;
+  }
+
   section:nth-of-type(2) .bar {
     max-width: 90%;
   }
