@@ -799,6 +799,7 @@ section:nth-of-type(4) form {
   margin: 40px auto 0 auto;
   min-width: 95%;
 }
+
 section:nth-of-type(4) input[type=text],
 section:nth-of-type(4) input[type=email],
 section:nth-of-type(4) textarea {
@@ -1068,8 +1069,11 @@ footer .footnote .highlight {
   section:nth-of-type(3) #gallery .mix .card {
     height: 300px;
   }
-
+  section:nth-of-type(4) form {
+        min-width: 500px;
+    }
 }
+
 @media screen and (min-width: 960px) {
   .waypoint {
     opacity: 0;
