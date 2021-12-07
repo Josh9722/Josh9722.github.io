@@ -35,8 +35,7 @@ function floatySpace() {
                 var yDist = Math.abs(mouse.y - current.y);
                 var rDist = Math.sqrt((xDist * xDist) + (yDist * yDist));
 
-                if (rDist < 50) {
-                    form.brightness(1).circle(current);
+                if (rDist < 50) {                   
                     form.fill("#5AF").stroke(false).circle(current);
 
                 } else {
