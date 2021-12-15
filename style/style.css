@@ -544,7 +544,7 @@ section:nth-of-type(2) .skills-wrapper .me {
 }
 
 section:nth-of-type(2) .skills-wrapper .skillImages {
-  height: 40px;
+  height: 60px;
 }
 
 section:nth-of-type(2) .skills-wrapper .label {
@@ -589,6 +589,7 @@ section:nth-of-type(2) .webDev {
 section:nth-of-type(2) .skillBox { /* The div containing skillFormat and skillImage */
   margin: 10px;
   position: relative;
+  
 }
 
 section:nth-of-type(2) .skillFormat {
@@ -1073,7 +1074,7 @@ footer .footnote .highlight {
   }
   
   section:nth-of-type(2) .skills-wrapper .skillImages {
-    height: 50px; /* is 25% more than the other*/
+    height: 75px; /* is 25% more than the other*/
   }
 
   section:nth-of-type(2) .bar {
@@ -1205,7 +1206,8 @@ footer .footnote .highlight {
   }
 
    section:nth-of-type(2) .skills-wrapper .skillImages {
-    margin: 0;
+    margin-top: 10px;
+    object-fit: cover;
   }
 
   section:nth-of-type(2) .bar {
