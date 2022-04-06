@@ -242,7 +242,7 @@ body {
 .header-bar {
   background: #444649;
   height: 4px;
-  margin: 25px 0 75px 0;
+  margin: 25px 0 20px 0;
   width: 70px;
 }
 
@@ -811,7 +811,7 @@ section:nth-of-type(4) .header {
 }
 section:nth-of-type(4) .header-bar {
   background: #fff;
-  margin: 25px 0 40px 0;
+  margin: 25px 0 20px 0;
   width: 110px;
 }
 section:nth-of-type(4) .highlight {
@@ -969,7 +969,7 @@ footer .footnote .highlight {
   }
 
   .header-bar {
-    margin: 25px 0 100px 0;
+    margin: 25px 0 20px 0;
   }
 
   .label {
