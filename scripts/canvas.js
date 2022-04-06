@@ -10,7 +10,6 @@ function floatySpace() {
 
     // Elements
     var center = space.size.$divide(1.8);
-    var angle = -(window.innerWidth * 0.5);
     var count = window.innerWidth * 0.05; // num of pt to create
     if (count > 150) count = 150;
     var mouse = center.clone();
@@ -19,7 +18,7 @@ function floatySpace() {
     var circleList = [];
 
     for (var i = 0; i < count; i++) {
-        var circle = new Circle(Math.random() * Math.min(space.size.x), Math.random() * Math.min(space.size.y)).setRadius(5); // new point at random coords within screensize
+        var circle = new Circle(Math.random() * Math.min(space.size.x), Math.random() * Math.min(space.size.y)).setRadius(1); // new point at random coords within screensize
         circleList.push(circle); // Adds point p to array pts
     }
 
@@ -36,10 +35,12 @@ function floatySpace() {
                 var rDist = Math.sqrt((xDist * xDist) + (yDist * yDist));
 
                 if (rDist < 50) {                   
-                    form.fill("#5AF").stroke(false).circle(current);
+                    form.fill("#ffd15f").stroke(false).circle(current);
+                    current.setRadius(3);
 
                 } else {
                     form.fill("#FFFFFF").stroke(false).circle(current);
+                    current.setRadius(1);
                 }
             }
         },
